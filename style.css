@@ -1,0 +1,77 @@
+h1{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #395144;
+  font-size: 30px;
+  line-height: 30px;
+
+}
+
+h2{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4E6C50;
+  font-size: 18px;
+  line-height: 20px;
+
+}
+
+a:hover{
+  color: #614124
+}
+a{
+  color: #AA8B56;
+  text-decoration: none;
+
+}
+
+body {
+  background-color: #FBF8F1;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(0, 0, 0, .2);
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.container {
+  width: 85%;
+  max-width: 700px;
+  margin: 0 auto;
+  border: 3px solid cyan;
+
+}
+
+.card {
+  background-color: whitesmoke;
+  padding: 40px;
+  margin: 20px auto;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+  font-size: 50px;
+  margin: 20px auto;
+}
+
+.list-inline li{
+  display: inline;
+}
+
+#profile_pic {
+  border-radius: 25px;
+}
+
+#brown-button {
+  display: inline-block;
+  background-color: #AA8B56;
+  color: #FBF8F1;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px;
+}
+
+#brown-button:hover {
+  background-color: #614124 ;
+}
